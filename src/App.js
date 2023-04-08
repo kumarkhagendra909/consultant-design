@@ -1,23 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
+import ContactUs from './ContactUs';
+import Head from './Head';
+import Navbar from './Navbar';
+import PopularCategoriesHead from './PopularCategoriesHead';
+import Frequent from './Frequent';
+import HappyClient from './HappyClient';
+import PopularConsultants from './PopularConsultants';
+import Growth from './Growth';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar />
+      <Head />
+      <PopularCategoriesHead />
+      <PopularConsultants />
+      <Growth />
+      <Frequent />
+      <HappyClient />
+      <ContactUs />
     </div>
   );
 }
