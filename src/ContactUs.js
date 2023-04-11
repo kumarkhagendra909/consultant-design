@@ -1,7 +1,7 @@
 
 const ContactUs = () => {
     return (
-        <div className='contentclass'>
+        // <div className='contentclass'>
             <div className='ctt-container'>
                 <div class='contact-title'>
                     <h1>Contact Us</h1>
@@ -29,7 +29,7 @@ const ContactUs = () => {
                     </form>
                 </div>
             </div>
-        </div>
+        // </div>
     );
 }
 export default ContactUs;

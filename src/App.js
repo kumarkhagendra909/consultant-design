@@ -1,12 +1,12 @@
 import './App.css';
-import ContactUs from './ContactUs';
-import Head from './Head';
 import Navbar from './Navbar';
+import Head from './Head';
+import Growth from './Growth';
 import PopularCategoriesHead from './PopularCategoriesHead';
+import PopularConsultants from './PopularConsultants';
 import Frequent from './Frequent';
 import HappyClient from './HappyClient';
-import PopularConsultants from './PopularConsultants';
-import Growth from './Growth';
+import ContactUs from './ContactUs';
 
 function App() {
   return (

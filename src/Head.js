@@ -2,7 +2,7 @@ import React from 'react'
 
 const Head = () => {
     return (
-        <div class="head">
+        // <div class="head">
             <div class="grid">
                 <div className="grid-1">
                     <h1>Consultobar, your partner in growth</h1>
@@ -19,7 +19,7 @@ const Head = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        // </div>
 
     );
 }
