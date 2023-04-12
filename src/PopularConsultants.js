@@ -1,7 +1,7 @@
 // import consultant1 from './consultant/consultant1.png';
 const PopularConsultants = () => {
     return (
-        <section class="section">
+        <div class="section">
             <div class="title">
                 <h3>Popular Concultants</h3>
             </div>
@@ -60,7 +60,7 @@ const PopularConsultants = () => {
                     <div className='sl'></div>
                 </div>
             </div>
-        </section>
+        </div>
     );
 }
 

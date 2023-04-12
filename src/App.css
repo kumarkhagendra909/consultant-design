@@ -1059,7 +1059,7 @@ textarea {
 
 /* Popular Consultant */
 .slider {
-  width: 100%;
+  /* width: 100%; */
   height: fit-content;
   display: flex;
   justify-content: center;
@@ -1068,22 +1068,23 @@ textarea {
   margin-top: 2%;
   padding-top: 2%;
   padding-bottom: 2%;
-  flex-wrap: wrap;
 }
 
 .cards {
-  flex-wrap: wrap;
   display: flex;
 }
 
 .owl-carousel {
-  width: 320px;
-  height: 572px;
+  width: 262px;
+  height: 442px;
   margin: 5px;
   border-radius: 20px;
   box-shadow: #E4E4E7;
   display: flex;
   flex-direction: column-reverse;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   background-image: url('../src/consultant/consultant1.png');
 }
 
@@ -1123,6 +1124,18 @@ textarea {
   margin-left: 25px;
   background-color: #52525B;
 }
+
+@media only screen and (max-width: 1024px) {
+  .owl-carousel {
+    width: 189px;
+    height: 331px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+/* End */
 
 /* Growth */
 .growth {
